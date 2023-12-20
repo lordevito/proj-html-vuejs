@@ -19,7 +19,7 @@ export default {
             <div class="">
                 <ul class="d-flex gap-4 list-unstyled m-0  uldprdwn">
                     <li v-for="i in store.NavItems">
-                        <a class="text-decoration-none hover-underline-animation " href="#"><i class="fa-solid fa-chevron-down"></i></a>
+                        <a class="text-decoration-none hover-underline-animation " href="#">{{ i.text }}<i class="fa-solid fa-chevron-down"></i></a>
                     </li>
                     <i class="fa-regular fa-circle-user fa-shake text-black align-self-center"></i>
                 </ul>
