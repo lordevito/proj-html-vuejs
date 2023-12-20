@@ -14,7 +14,7 @@ export default {
 <template>
     <div class="container d-flex align-items-center align-content-center m-auto justify-content-between gap-3 py-3">
             <div class="logo-cntn">
-                <img src="../../assets/images/dark-logo.png" alt="">
+                <img src="../../../public/images/dark-logo.png" alt="">
             </div>       
             <div class="">
                 <ul class="d-flex gap-4 list-unstyled m-0  uldprdwn">
@@ -77,6 +77,7 @@ a {
 
     a i {
         font-size: 16px;
+        color: $codgray;
     }
 }
 //Lista Navbar
