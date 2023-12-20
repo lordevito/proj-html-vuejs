@@ -14,7 +14,7 @@ export default {
 <template>
     <div class="container d-flex align-items-center align-content-center m-auto justify-content-between gap-3 py-3">
             <div class="logo-cntn">
-                <img src="../../public/images/dark-logo.png" alt="">
+                <img src="../../assets/images/dark-logo.png" alt="">
             </div>       
             <div class="">
                 <ul class="d-flex gap-4 list-unstyled m-0  uldprdwn">
@@ -40,6 +40,9 @@ export default {
 </template>
 
 <style lang="scss" scoped>
+
+@use '../../styles/variables' as *;
+
 //Logo MaxCoach
 .logo-cntn {
     img {
@@ -61,7 +64,7 @@ a {
 }
 //Icona searchbar
 .fa-magnifying-glass {
-    color: $turquoise;
+    color: $junglegreen;
 }
 //sidebar
 .side-bar {
