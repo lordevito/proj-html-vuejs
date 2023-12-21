@@ -16,7 +16,7 @@ export default {
 </script>
 
 <template>
-    <div class="mt-5">
+    <div class="bkg mt-5">
         <div class=" wrapper-round">
             <div class="container">
                 <div class=" d-flex justify-content-around gap-3">
@@ -49,6 +49,10 @@ export default {
 
 <style lang="scss" scoped>
 @use '../../styles/variables' as *;
+
+.bkg{
+    background-color: $hintofred;
+}
 .wrapper-round {
     background-color: $white;
     border-bottom-right-radius: 550px;
