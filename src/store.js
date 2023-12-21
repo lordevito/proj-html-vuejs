@@ -181,4 +181,67 @@ export const store = reactive({
         }
 
     ],
+    FootNav: [
+        {
+            ulText: "Address",
+            liText: [
+                '382 NE 191st St # 87394 Miami, FL 33179-3899',
+                '+1(305) 547-9909 (9am - 5pm EST, Monday - Frday)',
+                'suppor@maxcoach.com'
+            ],
+            icons: [
+                'fa-square-facebook',
+                'fa-twitter',
+                'fa-instagram',
+                'fa-linkedin'
+
+
+            ]
+        },
+
+        {
+            ulText: "Explore",
+            liText: [
+                'Start here',
+                'Blog',
+                'About Us',
+            ],
+            icons: [
+
+
+            ]
+
+        },
+
+        {
+            ulText: "",
+            liText: [
+                'Success story',
+                'Courses',
+                'Contact us'
+            ],
+            icons: [
+
+
+            ]
+
+        },
+
+        {
+            ulText: "Information",
+            liText: [
+                'Membership',
+                'Purchase guide',
+                'Privacy policy',
+                'Terms of services'
+            ],
+            icons: [
+
+
+
+            ]
+        }
+
+
+    ],
 });
