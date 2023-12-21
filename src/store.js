@@ -105,5 +105,39 @@ export const store = reactive({
             cta: 'Start now',
         }
     ],
+    carouselcard: [
+        {
+            title: 'High level of efficiency and scientific teaching methods',
+            content: 'I am free to learn at my own pace, follow my own schedule and choose the subject I want to learn from the syllabus, Great study for people like me.',
+            name: 'mina hollace',
+            job: '/Freelancer',
+            pic: '02'
+        },
 
+        {
+            title: 'It\'s a choice of quality for people with special needs',
+            content: 'I am a very strict person so I require everthing to be organized and neat. Then, I\'ll be able to make things right and shine. MaxCoach guys just gor me.',
+            name: 'forence themes',
+            job: '/Multimedia Admin',
+            pic: '03'
+        },
+
+        {
+            title: 'Professional team of specialists and passionate',
+            content: 'I need to get a certification for English proficiency and MaxCoach is my best choice. Theur tytors are smart and professional when dealing with students',
+            name: 'madley pondor',
+            job: '/IT specialist',
+            pic: '04'
+        },
+
+        {
+            title: 'Amazingly proud of being a MaxCoachee',
+            content: 'I need to get a certification for English proficiency and MaxCoach is my best choice. Theur tytors are smart and professional when dealing with students',
+            name: 'Pough Bigsley',
+            job: '/Accountant',
+            pic: '01'
+        },
+
+
+    ],
 });
