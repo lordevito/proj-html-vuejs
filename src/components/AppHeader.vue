@@ -6,7 +6,7 @@ export default {
 
 components: {
   HeaderNavbar,
-  JumboComp
+  JumboComp,
 }
 }
 </script>
