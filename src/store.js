@@ -137,7 +137,48 @@ export const store = reactive({
             job: '/Accountant',
             pic: '01'
         },
+    ],
+    counter: [
+        {
+            title: 'Successfully trained',
+            num: 1790,
+            subtitle: 'enrolled learners'
+        },
 
+        {
+            title: 'Proudly Received',
+            num: 19,
+            subtitle: 'countrywide awards'
+        },
+
+        {
+            title: 'Firmly Established',
+            num: 24,
+            subtitle: 'local branches'
+        },
+
+        {
+            title: 'Getting Featured on',
+            num: 1090,
+            subtitle: 'blog posts'
+        },
+    ],
+    blog: [
+        {
+            img: 'artist-blog-01-480x352',
+            titlesm: 'Artist',
+            title: 'Brush strokes energize trees in paintings',
+            date: 'May 15, 2020',
+            views: '688 views'
+        },
+
+        {
+            img: 'artist-blog-03-480x352',
+            titlesm: 'Artist',
+            title: 'Pockets size notebook hold miniature paintings',
+            date: 'May 15, 2020',
+            views: '603 views'
+        }
 
     ],
 });

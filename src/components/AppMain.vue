@@ -1,14 +1,18 @@
 <script>
-import CourseComp from './MainComponents/CourseComp.vue';
+import CourseComp from './MainComponents/coursecomp.vue';
 import TutoringComp from './MainComponents/TutoringComp.vue';
 import CarouselComp from './MainComponents/CarouselComp.vue';
+import BlogComp from './MainComponents/BlogComp.vue';
+
 
 export default {
 
 components: {
     CourseComp,
     TutoringComp,
-    CarouselComp
+    CarouselComp,
+    BlogComp
+   
 }
 }
 </script>
@@ -17,6 +21,7 @@ components: {
   <CourseComp />
   <TutoringComp />
   <CarouselComp />
+  <BlogComp />
 </template>
 
 <style lang="scss" scoped>
