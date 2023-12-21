@@ -49,7 +49,7 @@ export default {
 @use '../../styles/variables' as *;
 
 .bkg {
-    background-color: $shadylady;
+    background-color: $hintofred;
 
 }
 
